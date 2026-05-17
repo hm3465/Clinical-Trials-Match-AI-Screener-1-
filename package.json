@@ -1,0 +1,44 @@
+{
+  "name": "clinical-trials-match",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-powered clinical trial eligibility screener",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hm3465/Clinical-Trials-Match-AI-Screener-1-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hm3465/Clinical-Trials-Match-AI-Screener-1-/issues"
+  },
+  "homepage": "https://github.com/hm3465/Clinical-Trials-Match-AI-Screener-1-#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.105.4",
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/node": "^25.8.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.6",
+    "next": "^16.2.6",
+    "postcss": "^8.5.14",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5"
+  }
+}
